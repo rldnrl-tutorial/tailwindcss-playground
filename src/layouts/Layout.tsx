@@ -34,7 +34,7 @@ export default function Layout({ children }: LayoutProps) {
           </ul>
         </nav>
       </div>
-      {children}
+      <main className="px-16 py-6 bg-gray-100">{children}</main>
     </>
   );
 }
